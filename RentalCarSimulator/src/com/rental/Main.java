@@ -1,5 +1,6 @@
 package com.rental;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,41 +8,36 @@ public class Main {
 
     public static void main(String[] args) {
 
+        //instantiate car factory
         CarFactory carFactory = new CarFactory();
+
+        //create list of cars in the fleet
+        List<Car> carFleet = new ArrayList<Car>();
+
+        //creates 25 cars in the fleet, 5 of each kind and adds them to carFleet list
         for(int i=0; i<5; i++){
             Car economy = carFactory.getCar("economy");
-            economy.getType();
-            economy.getRate();
-            economy.getPlate();
+            carFleet.add(economy);
 
             Car standard = carFactory.getCar("standard");
-            standard.getType();
-            standard.getRate();
-            standard.getPlate();
+            carFleet.add(standard);
 
             Car suv = carFactory.getCar("suv");
-            suv.getType();
-            suv.getRate();
-            suv.getPlate();
+            carFleet.add(standard);
 
             Car luxury = carFactory.getCar("luxury");
-            luxury.getType();
-            luxury.getRate();
-            luxury.getPlate();
+            carFleet.add(luxury);
 
             Car minivan = carFactory.getCar("minivan");
-            minivan.getType();
-            minivan.getRate();
-            minivan.getPlate();
+            carFleet.add(minivan);
         }
 
-
-//        Car car1 = carFactory.getCar("economy");
-//        car1.getType();
-//        car1.getRate();
-//        Car car2 = carFactory.getCar("suv");
-//        car2.getType();
-//        car2.getRate();
+        //just loop through to see type, daily rate, and license plate of each car
+        for(Car car : carFleet){
+            car.getType();
+            car.getRate();
+            car.getPlate();
+        }
 
     }
 }
