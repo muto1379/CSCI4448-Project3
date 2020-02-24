@@ -23,7 +23,7 @@ public class Main {
             carFleet.add(standard);
 
             Car suv = carFactory.getCar("suv");
-            carFleet.add(standard);
+            carFleet.add(suv);
 
             Car luxury = carFactory.getCar("luxury");
             carFleet.add(luxury);
@@ -32,12 +32,16 @@ public class Main {
             carFleet.add(minivan);
         }
 
+        //remove the last element to meet assignment requirements of 24 total cars in rental catalog
+        //specifically, this leaves 5 of each category of car EXCEPT Minivan which will have 4 total cars in the fleet
+        carFleet.remove(carFleet.size() - 1);
+
         //just loop through to see type, daily rate, and license plate of each car
         for(Car car : carFleet){
             car.getType();
             car.getRate();
             car.getPlate();
+            car.isRented();
         }
-
     }
 }

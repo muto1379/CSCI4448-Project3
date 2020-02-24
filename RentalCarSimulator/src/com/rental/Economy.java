@@ -5,14 +5,26 @@ public class Economy implements Car{
     private int rate;
     private String plate;
     private String type;
+
+    public void setRented(boolean rented) {
+        this.rented = rented;
+    }
+
+    private boolean rented;
     private static int ID = 1;
 
     public Economy(){
         rate=20;
         plate=setPlate();
         type="Economy";
-
+        rented = false;
         ++ID;
+    }
+
+    @Override
+    public boolean isRented(){
+        System.out.println(rented);
+        return rented;
     }
 
     @Override
