@@ -10,10 +10,10 @@ public class Main {
 
         //instantiate car factory
         CarFactory carFactory = new CarFactory();
-//        CustomerFactory customerFactory = new CustomerFactory();
 
         //create list of cars in the fleet
         List<Car> carFleet = new ArrayList<Car>();
+        //create a list of customers that will rent cars
         List<Customer> customerList = new ArrayList<Customer>();
 
         //creates 25 cars in the fleet, 5 of each kind and adds them to carFleet list
@@ -69,12 +69,12 @@ public class Main {
         customerList.add(Ruth);
 
         //check info about customers w simple print statement
-        for(Customer c:customerList){
-            c.getName();
-            c.getRentals();
-            c.getCustomerType();
-        }
-
+//        for(Customer c:customerList){
+//            c.getName();
+//            c.getRentals();
+//            c.getCustomerType();
+//        }
+//
 
         //just loop through to see type, daily rate, and license plate of each car
 //        for(Car car : carFleet){
