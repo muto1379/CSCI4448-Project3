@@ -3,6 +3,7 @@ package com.rental;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 public class Main {
 
@@ -19,7 +20,7 @@ public class Main {
         //creates 25 cars in the fleet, 5 of each kind and adds them to carFleet list
 
 
-        for(int i=0; i<5; i++){
+        for (int i = 0; i < 5; i++) {
             Car economy = carFactory.getCar("economy");
             carFleet.add(economy);
 
@@ -73,8 +74,18 @@ public class Main {
 //            c.getName();
 //            c.getRentals();
 //            c.getCustomerType();
-//        }
+//            c.getDaysPerRental();
 //
+//        }
+
+        for (int i = 0; i < 3; i++){
+            Random rand = new Random();
+            RentalRecord r = new RentalRecord();
+            Customer randomCustomer = customerList.get(rand.nextInt(customerList.size()));
+            Car randomCar = carFleet.get(rand.nextInt(carFleet.size()));
+            r.createRecord(randomCustomer, randomCar);
+            System.out.println('\n');
+        }
 
         //just loop through to see type, daily rate, and license plate of each car
 //        for(Car car : carFleet){

@@ -22,30 +22,30 @@ public class SUV implements Car {
 
     @Override
     public boolean isRented(){
-        System.out.println(rented);
+//        System.out.println(rented);
         return rented;
     }
 
     @Override
     public String getPlate(){
-        System.out.println(plate);
+//        System.out.println(plate);
         return plate;
     }
 
     @Override
     public String getType(){
-        System.out.println(type);
+//        System.out.println(type);
         return type;
     }
 
     @Override
     public int getRate(){
-        System.out.println("$"+rate + " per day");
+//        System.out.println("$"+rate + " per day");
         return rate;
     }
 
     public String setPlate(){
-        plate="SUV"+Integer.toString(ID);
+//        plate="SUV"+Integer.toString(ID);
         return plate;
     }
 }

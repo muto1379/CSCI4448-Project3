@@ -5,43 +5,44 @@ import java.util.Random;
 public class RegularCustomer implements Customer {
     private String name;
     private String customerType;
-    private int rentals;
+    private int carRentals;
+    private int daysCarIsRented;
 
     public RegularCustomer(String name) {
         this.name = name;
         customerType="Regular";
-        rentals = getRandomNumberInRange(1,3);
+        carRentals = Customer.getRandomNumberInRange(1,3);
+        daysCarIsRented=Customer.getRandomNumberInRange(3,5);
     }
 
-    private static int getRandomNumberInRange(int min, int max) {
 
-        if (min >= max) {
-            throw new IllegalArgumentException("max must be greater than min");
-        }
-
-        Random r = new Random();
-        return r.nextInt((max - min) + 1) + min;
-    }
 
 
     @Override
     public int getRentals(){
-        System.out.println(rentals);
-        return rentals;
+//        System.out.println(carRentals);
+        return carRentals;
     }
 
     @Override
     public String getCustomerType() {
-        System.out.println(customerType);
+//        System.out.println(customerType);
         return customerType;
     }
 
 
     @Override
     public String getName() {
-        System.out.println(name);
+//        System.out.println(name);
         return name;
     }
+
+    @Override
+    public int getDaysPerRental(){
+//        System.out.println("Car can be rented "+Integer.toString(daysCarIsRented)+" days");
+        return daysCarIsRented;
+    }
+
 
 
 }

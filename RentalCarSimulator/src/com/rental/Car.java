@@ -6,4 +6,5 @@ public interface Car {
     String getPlate();
     boolean isRented();
     void setRented(boolean rented);
+    
 }
