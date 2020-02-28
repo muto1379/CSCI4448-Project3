@@ -80,10 +80,10 @@ public class Main {
 
         for (int i = 0; i < 3; i++){
             Random rand = new Random();
-            RentalRecord r = new RentalRecord();
             Customer randomCustomer = customerList.get(rand.nextInt(customerList.size()));
             Car randomCar = carFleet.get(rand.nextInt(carFleet.size()));
-            r.createRecord(randomCustomer, randomCar);
+            RentalRecord r = new RentalRecord(randomCustomer, randomCar);
+            r.printRecord();
             System.out.println('\n');
         }
 

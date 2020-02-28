@@ -45,7 +45,7 @@ public class SUV implements Car {
     }
 
     public String setPlate(){
-//        plate="SUV"+Integer.toString(ID);
+        plate="SUV"+Integer.toString(ID);
         return plate;
     }
 }
