@@ -15,7 +15,7 @@ public class Luxury implements Car {
         rate=60;
         plate=setPlate();
         type = "Luxury";
-        rented = false;
+        rented = rented;
 
         ++ID;
     }

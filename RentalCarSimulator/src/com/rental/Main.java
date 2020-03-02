@@ -16,6 +16,8 @@ public class Main {
         List<Car> carFleet = new ArrayList<Car>();
         //create a list of customers that will rent cars
         List<Customer> customerList = new ArrayList<Customer>();
+        //create car inventory
+        CarInventory inventory = new CarInventory();
 
         //creates 25 cars in the fleet, 5 of each kind and adds them to carFleet list
 
@@ -23,24 +25,30 @@ public class Main {
         for (int i = 0; i < 5; i++) {
             Car economy = carFactory.getCar("economy");
             carFleet.add(economy);
+            inventory.addCar(economy);
 
             Car standard = carFactory.getCar("standard");
             carFleet.add(standard);
+            inventory.addCar(standard);
+            inventory.rentCar(standard);
 
             Car suv = carFactory.getCar("suv");
             carFleet.add(suv);
+            inventory.addCar(suv);
 
             Car luxury = carFactory.getCar("luxury");
             carFleet.add(luxury);
+            inventory.addCar(luxury);
 
             Car minivan = carFactory.getCar("minivan");
             carFleet.add(minivan);
+            inventory.addCar(minivan);
         }
 
         //remove the last element to meet assignment requirements of 24 total cars in rental catalog
         //specifically, this leaves 5 of each category of car EXCEPT Minivan which will have 4 total cars in the fleet
         carFleet.remove(carFleet.size() - 1);
-
+/*
         //Instantiate all of the customers and add them to a customer list
         Customer Becca = new BusinessCustomer("Becca");
         customerList.add(Becca);
@@ -93,6 +101,9 @@ public class Main {
 //            car.getRate();
 //            car.getPlate();
 //            car.isRented();
-//        }
+//        }*/
+        inventory.printAllCars();
+        inventory.printCarsRented();
+        //inventory.printCarsInventory();
     }
 }
