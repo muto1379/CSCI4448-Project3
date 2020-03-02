@@ -12,6 +12,10 @@ public class Economy implements Car{
 
     private boolean rented;
     private static int ID = 1;
+    public void decreaseDaysLeft() {
+        this.rentDaysLeft--;
+    }
+    private int rentDaysLeft;
 
     public Economy(){
         rate=20;
@@ -19,12 +23,19 @@ public class Economy implements Car{
         type="Economy";
         rented = false;
         ++ID;
+        rentDaysLeft = 0;
     }
 
     @Override
     public boolean isRented(){
 //        System.out.println(rented);
         return rented;
+    }
+
+    @Override
+    public int getDaysLeft(){
+//        System.out.println(plate);
+        return rentDaysLeft;
     }
 
     @Override
@@ -48,5 +59,10 @@ public class Economy implements Car{
     public String setPlate(){
         plate="E"+Integer.toString(ID);
         return plate;
+    }
+
+    public void setDaysLeft(int days){
+//        System.out.println("$"+rate + " per day");
+        this.rentDaysLeft = days;
     }
 }

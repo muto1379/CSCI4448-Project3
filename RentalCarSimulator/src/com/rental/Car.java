@@ -5,6 +5,9 @@ public interface Car {
     int getRate();
     String getPlate();
     boolean isRented();
+    int getDaysLeft();
+    void setDaysLeft(int days);
     void setRented(boolean rented);
+    void decreaseDaysLeft();
     
 }

@@ -10,12 +10,17 @@ public class Standard implements Car {
     public void setRented(boolean rented) {
         this.rented = rented;
     }
+    public void decreaseDaysLeft() {
+        this.rentDaysLeft--;
+    }
+    private int rentDaysLeft;
 
     public Standard(){
         rate = 30;
         plate=setPlate();
         type = "Standard";
         rented = false;
+        int rentDaysLeft = 0;
         ++ID;
     }
 
@@ -23,6 +28,12 @@ public class Standard implements Car {
     public boolean isRented(){
 //        System.out.println(rented);
         return rented;
+    }
+
+    @Override
+    public int getDaysLeft(){
+//        System.out.println(plate);
+        return rentDaysLeft;
     }
 
     @Override
@@ -46,5 +57,10 @@ public class Standard implements Car {
     public String setPlate(){
         plate="S"+Integer.toString(ID);
         return plate;
+    }
+
+    public void setDaysLeft(int days){
+//        System.out.println("$"+rate + " per day");
+        this.rentDaysLeft = days;
     }
 }

@@ -10,12 +10,17 @@ public class Luxury implements Car {
     public void setRented(boolean rented) {
         this.rented = rented;
     }
+    public void decreaseDaysLeft() {
+        this.rentDaysLeft--;
+    }
+    private int rentDaysLeft;
 
     public Luxury(){
         rate=60;
         plate=setPlate();
         type = "Luxury";
-        rented = rented;
+        rented = false;
+        rentDaysLeft = 0;
 
         ++ID;
     }
@@ -24,6 +29,12 @@ public class Luxury implements Car {
     public boolean isRented(){
 //        System.out.println(rented);
         return rented;
+    }
+
+    @Override
+    public int getDaysLeft(){
+//        System.out.println(plate);
+        return rentDaysLeft;
     }
 
     @Override
@@ -48,4 +59,9 @@ public class Luxury implements Car {
         plate="L"+Integer.toString(ID);
         return plate;
     }
+    public void setDaysLeft(int days){
+//        System.out.println("$"+rate + " per day");
+        this.rentDaysLeft = days;
+    }
+
 }
