@@ -16,6 +16,7 @@ public class CarInventory
 
     }
 
+
     public void addCar(Car car)
     {
         car.setRented(false);
@@ -23,11 +24,12 @@ public class CarInventory
         allCars.add(car);
     }
 
-    public void rentCar(Car car)
+    public Car rentCar(Car car)
     {
         car.setRented(true);
         carRented.add(car);
         carInInventory.remove(car);
+        return car;
     }
 
     public void returnCar(Car car)
@@ -75,5 +77,10 @@ public class CarInventory
             System.out.println("Daily rental rate: " + carRented.get(i).getRate());
             System.out.println('\n');
         }
+    }
+
+    public List<Car> getCarsInventory()
+    {
+        return carInInventory;
     }
 }

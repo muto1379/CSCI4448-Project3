@@ -18,6 +18,8 @@ public class Main {
         //create car inventory
         CarInventory inventory = new CarInventory();
 
+        RentCar rent = new RentCar();
+
         //creates 25 cars in the fleet, 5 of each kind and adds them to carFleet list
 
 
@@ -43,7 +45,6 @@ public class Main {
             carFleet.add(minivan);
             inventory.addCar(minivan);
         }
-
         //remove the last element to meet assignment requirements of 24 total cars in rental catalog
         //specifically, this leaves 5 of each category of car EXCEPT Minivan which will have 4 total cars in the fleet
         carFleet.remove(carFleet.size() - 1);
@@ -51,31 +52,45 @@ public class Main {
         //Instantiate all of the customers and add them to a customer list
         Customer Becca = new BusinessCustomer("Becca");
         customerList.add(Becca);
+        rent.Rent(Becca,inventory);
         Customer Bryan = new BusinessCustomer("Bryan");
         customerList.add(Bryan);
+        rent.Rent(Bryan,inventory);
         Customer Bridget = new BusinessCustomer("Bridget");
         customerList.add(Bridget);
+        rent.Rent(Bridget,inventory);
         Customer Brandon = new BusinessCustomer("Brandon");
         customerList.add(Brandon);
+        rent.Rent(Brandon,inventory);
 
         Customer Carrie = new CasualCustomer("Carrie");
         customerList.add(Carrie);
+        rent.Rent(Carrie,inventory);
         Customer Carlos = new CasualCustomer("Carlos");
         customerList.add(Carlos);
+        rent.Rent(Carlos,inventory);
         Customer Christine = new CasualCustomer("Christine");
         customerList.add(Christine);
+        rent.Rent(Christine,inventory);
         Customer Cory = new CasualCustomer("Cory");
         customerList.add(Cory);
+        rent.Rent(Cory,inventory);
 
         Customer Ryan = new RegularCustomer("Ryan");
         customerList.add(Ryan);
+        rent.Rent(Ryan,inventory);
         Customer Rachel = new RegularCustomer("Rachel");
         customerList.add(Rachel);
+        rent.Rent(Rachel,inventory);
         Customer Richard = new RegularCustomer("Richard");
         customerList.add(Richard);
+        rent.Rent(Richard,inventory);
         Customer Ruth = new RegularCustomer("Ruth");
         customerList.add(Ruth);
+        rent.Rent(Ruth,inventory);
 
+        //inventory.printCarsRented();
+        rent.printRecords();
         //check info about customers w simple print statement
 //        for(Customer c:customerList){
 //            c.getName();
@@ -84,7 +99,7 @@ public class Main {
 //            c.getDaysPerRental();
 //
 //        }
-
+/*
         for (int i = 0; i < 3; i++){
             Random rand = new Random();
             Customer randomCustomer = customerList.get(rand.nextInt(customerList.size()));
@@ -100,9 +115,9 @@ public class Main {
 //            car.getRate();
 //            car.getPlate();
 //            car.isRented();
-//        }*/
-        inventory.printAllCars();
-        inventory.printCarsRented();
+//        }
+        //inventory.printAllCars();
+        //inventory.printCarsRented();
         //inventory.printCarsInventory();
 //        }
 
@@ -147,6 +162,7 @@ public class Main {
             for (int i = 0; i < rentedCars.size(); i++){
                 rentedCars.get(i).decreaseDaysLeft(); // At the end of the day, decrease the number of days left for each rental car
             }
-        }
+            */
+
     }
 }

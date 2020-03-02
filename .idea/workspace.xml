@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9beb00e1-ddd9-43ce-8be4-e6f553ea40fd" name="Default Changelist" comment="" />
+    <list default="true" id="9beb00e1-ddd9-43ce-8be4-e6f553ea40fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/RentalCarSimulator/src/com/rental/CostCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RentalCarSimulator/src/com/rental/CostDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RentalCarSimulator/src/com/rental/RentCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RentalCarSimulator/src/com/rental/TotalCost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RentalCarSimulator/src/com/rental/newTotalCost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RentalCarSimulator/src/com/rental/CarInventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/RentalCarSimulator/src/com/rental/CarInventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RentalCarSimulator/src/com/rental/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/RentalCarSimulator/src/com/rental/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RentalCarSimulator/src/com/rental/RentalRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/RentalCarSimulator/src/com/rental/RentalRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSCI4448-Project3/com/rental/BusinessCustomer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSCI4448-Project3/com/rental/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSCI4448-Project3/com/rental/CarFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSCI4448-Project3/com/rental/CarInventory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSCI4448-Project3/com/rental/CasualCustomer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSCI4448-Project3/com/rental/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSCI4448-Project3/com/rental/Economy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSCI4448-Project3/com/rental/Luxury.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSCI4448-Project3/com/rental/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSCI4448-Project3/com/rental/Minivan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSCI4448-Project3/com/rental/RegularCustomer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSCI4448-Project3/com/rental/RentalRecord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSCI4448-Project3/com/rental/SUV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSCI4448-Project3/com/rental/Standard.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +35,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -65,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583127982602</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added inventory class and tested it out in main">
+      <created>1583129224611</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583129224611</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -73,42 +106,66 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added inventory class and tested it out in main" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1577" y="385" key="#Main" timestamp="1583127890005">
+    <state x="-1577" y="385" key="#Main" timestamp="1583145400914">
       <screen x="-2560" y="0" width="2560" height="1440" />
     </state>
-    <state x="-1577" y="385" key="#Main/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1583127890005" />
+    <state x="-1577" y="385" key="#Main/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1583145400914" />
+    <state x="-1816" y="382" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583135995232">
+      <screen x="-2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="-1816" y="382" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1583135995232" />
+    <state x="-1528" y="530" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583135598689">
+      <screen x="-2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="-1528" y="530" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1583135598689" />
     <state x="-1645" y="414" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1583122033201">
       <screen x="-2560" y="0" width="2560" height="1440" />
     </state>
     <state x="-1645" y="414" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1583122033201" />
+    <state x="-1467" y="436" key="#com.intellij.ide.util.MemberChooser" timestamp="1583144590222">
+      <screen x="-2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="-1467" y="436" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1583144590222" />
     <state x="-1543" y="511" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1583127601217">
       <screen x="-2560" y="0" width="2560" height="1440" />
     </state>
     <state x="-1543" y="511" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1583127601217" />
-    <state x="-1958" y="322" key="CommitChangelistDialog2" timestamp="1583127982476">
+    <state x="-1428" y="616" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583129491170">
       <screen x="-2560" y="0" width="2560" height="1440" />
     </state>
-    <state x="-1958" y="322" key="CommitChangelistDialog2/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1583127982476" />
+    <state x="-1428" y="616" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1583129491170" />
+    <state x="-1958" y="322" key="CommitChangelistDialog2" timestamp="1583129224507">
+      <screen x="-2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="-1958" y="322" key="CommitChangelistDialog2/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1583129224507" />
     <state x="-2460" y="100" width="2360" height="1240" key="DiffContextDialog" timestamp="1583128986238">
       <screen x="-2560" y="0" width="2560" height="1440" />
     </state>
     <state x="-2460" y="100" width="2360" height="1240" key="DiffContextDialog/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1583128986238" />
-    <state width="2518" height="423" key="GridCell.Tab.0.bottom" timestamp="1583128651042">
+    <state width="2518" height="179" key="GridCell.Tab.0.bottom" timestamp="1583145402377">
       <screen x="-2560" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="423" key="GridCell.Tab.0.bottom/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1583128651042" />
-    <state width="2518" height="423" key="GridCell.Tab.0.center" timestamp="1583128651037">
+    <state width="2518" height="179" key="GridCell.Tab.0.bottom/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1583145402377" />
+    <state width="2518" height="179" key="GridCell.Tab.0.center" timestamp="1583145402375">
       <screen x="-2560" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="423" key="GridCell.Tab.0.center/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1583128651037" />
-    <state width="2518" height="423" key="GridCell.Tab.0.left" timestamp="1583128651036">
+    <state width="2518" height="179" key="GridCell.Tab.0.center/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1583145402375" />
+    <state width="2518" height="179" key="GridCell.Tab.0.left" timestamp="1583145402374">
       <screen x="-2560" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="423" key="GridCell.Tab.0.left/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1583128651036" />
-    <state width="2518" height="423" key="GridCell.Tab.0.right" timestamp="1583128651038">
+    <state width="2518" height="179" key="GridCell.Tab.0.left/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1583145402374" />
+    <state width="2518" height="179" key="GridCell.Tab.0.right" timestamp="1583145402376">
       <screen x="-2560" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="423" key="GridCell.Tab.0.right/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1583128651038" />
+    <state width="2518" height="179" key="GridCell.Tab.0.right/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1583145402376" />
+    <state x="-1962" y="289" width="1795" height="1018" key="MergeDialog" timestamp="1583129412223">
+      <screen x="-2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="-1962" y="289" width="1795" height="1018" key="MergeDialog/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1583129412223" />
+    <state x="-1564" y="443" key="MultipleFileMergeDialog" timestamp="1583129419087">
+      <screen x="-2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="-1564" y="443" key="MultipleFileMergeDialog/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1583129419087" />
     <state x="-1823" y="431" key="VCS.ChangeListViewerDialog" timestamp="1583128963856">
       <screen x="-2560" y="0" width="2560" height="1440" />
     </state>
@@ -121,9 +178,13 @@
       <screen x="-2560" y="0" width="2560" height="1440" />
     </state>
     <state x="-2460" y="100" width="2360" height="1240" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1583128667724" />
-    <state x="-1475" y="644" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583129158998">
+    <state x="-1475" y="644" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583129531664">
       <screen x="-2560" y="0" width="2560" height="1440" />
     </state>
-    <state x="-1475" y="644" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1583129158998" />
+    <state x="-1475" y="644" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1583129531664" />
+    <state x="-1615" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1583138249463">
+      <screen x="-2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="-1615" y="331" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1583138249463" />
   </component>
 </project>

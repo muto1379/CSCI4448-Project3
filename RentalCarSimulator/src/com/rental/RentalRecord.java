@@ -1,10 +1,5 @@
 package com.rental;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Random;
-
 public class RentalRecord {
     private String customerName;
     private String customerType;
@@ -13,6 +8,8 @@ public class RentalRecord {
     private boolean rentalStatus;
     private int lengthOfRental;
     private int dailyRentalRate;
+    private Car car;
+    private boolean returned;
 
     RentalRecord(Customer customer, Car car){
         customerName=customer.getName();
@@ -23,8 +20,23 @@ public class RentalRecord {
         rentalStatus=car.isRented();
         lengthOfRental=customer.getDaysPerRental();
         dailyRentalRate=car.getRate();
+        this.car = car;
+        returned = false;
     }
 
+    public String getCustomerName() {
+        return customerName;
+    }
+
+    public Car getCar()
+    {
+        return this.car;
+    }
+
+    public void setReturned(boolean returned)
+    {
+        this.returned = returned;
+    }
 
     public void printRecord() {
         System.out.println("Customer name: " + customerName);
@@ -34,13 +46,15 @@ public class RentalRecord {
         System.out.println("Car rented? "+Boolean.toString(rentalStatus));
         System.out.println("Length of rental: " + Integer.toString(lengthOfRental));
         System.out.println("Daily rate of rental: " + Integer.toString(dailyRentalRate));
-        System.out.println("Total cost of rental: "+Integer.toString(totalCostCalculator(dailyRentalRate, lengthOfRental)));
+
+        CostCalculator bCost = new TCost(dailyRentalRate, lengthOfRental);
+        int baseCost = bCost.TotalCost(dailyRentalRate, lengthOfRental);
+        CostCalculator tCost = new newTotalCost(new TCost(dailyRentalRate, lengthOfRental));
+        int totalCost = tCost.TotalCost(dailyRentalRate, lengthOfRental);
+
+        System.out.println("Base cost of rental: "+Integer.toString(baseCost));
+        System.out.println("Total cost of rental: "+Integer.toString(totalCost));
+        System.out.println("Returned: " + this.returned);
     }
-
-    public int totalCostCalculator(int dailyRate, int lengthOfRental){
-
-        return(dailyRate*lengthOfRental);
-    }
-
 }
 
