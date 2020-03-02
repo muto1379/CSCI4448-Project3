@@ -36,6 +36,8 @@ public class RentalRecord {
     public void setReturned(boolean returned)
     {
         this.returned = returned;
+        car.setRented(false);
+        rentalStatus = false;
     }
 
     public void printRecord() {
@@ -43,7 +45,7 @@ public class RentalRecord {
         System.out.println("Customer type: " + customerType);
         System.out.println("Car being rented: " + carType);
         System.out.println("Car license plate: " + carLicensePlate);
-        System.out.println("Car rented? "+Boolean.toString(rentalStatus));
+        //System.out.println("Car rented? "+Boolean.toString(rentalStatus));
         System.out.println("Length of rental: " + Integer.toString(lengthOfRental));
         System.out.println("Daily rate of rental: " + Integer.toString(dailyRentalRate));
 

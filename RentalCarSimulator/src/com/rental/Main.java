@@ -45,6 +45,15 @@ public class Main {
             carFleet.add(minivan);
             inventory.addCar(minivan);
         }
+
+//The inventory has 3 lists, 1) all the cars: allcars, 2) cars currently in storage:
+//carInInventory, 3) cars that are currently rented out: carRented. There are functions
+//that will keep track of them used in the RentCar function below. You can see everything
+//it does in CarInventory.java. Also we don't need the carFleet anymore. We might have to
+//delete one of the cars to get it to be 24 cars instead of 25.
+
+
+
         //remove the last element to meet assignment requirements of 24 total cars in rental catalog
         //specifically, this leaves 5 of each category of car EXCEPT Minivan which will have 4 total cars in the fleet
         carFleet.remove(carFleet.size() - 1);
@@ -89,8 +98,28 @@ public class Main {
         customerList.add(Ruth);
         rent.Rent(Ruth,inventory);
 
+
+//To do the simulation you can use rent.Rent(customer, inventory) on random customers
+//in the customerList. The function removes a car from inventory and puts it in a list
+//of rented cars. It also creates a RentalRecord and stores all the records in a list
+//called rent.records. You can see what it does in RentCar file. You can also call
+//rent.ReturnCar(customer, inventory) and it will put the car back into inventory and remove
+//it from the rented list. If there aren't enough cars to rent per person, it will print a
+//message saying there aren't enough cars and skip it.
+
+
         //inventory.printCarsRented();
+
         rent.printRecords();
+
+//rent.printRecords prints out all of the records of the rentals. It keeps track of the
+//customer, car details, how long its rented out for, the rate, the base price, the total
+//price when including optional features (GPS, etc.) and whether it was returned or not.
+//When you call rent.ReturnCar it goes back to the record and changes returned to true
+//and sets the rented boolean to false. The costs are calculated in the files
+//with names concerning cost. The additional cost calculations can be found in
+//newTotalCost.java file
+
         //check info about customers w simple print statement
 //        for(Customer c:customerList){
 //            c.getName();
