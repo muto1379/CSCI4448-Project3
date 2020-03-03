@@ -25,3 +25,7 @@ Java 8 via IntelliJ IDEA
 *Decorator Pattern* is used for calculating costs, Base Cost is just number of days * daily rate, Total Cost covers that plus the options of Satelite Radio, GPS, and Car Seats.
 
 *Observer Patter* is used for notifying rented cars that the day has ended, and their rented days left should decrease.
+
+## How to Run
+
+To run the program, run the main class located in RentalCarSimulator/src/com/rental
