@@ -61,42 +61,42 @@ public class Main {
         //Instantiate all of the customers and add them to a customer list
         Customer Becca = new BusinessCustomer("Becca");
         customerList.add(Becca);
-        rent.Rent(Becca,inventory);
+//        rent.Rent(Becca,inventory);
         Customer Bryan = new BusinessCustomer("Bryan");
         customerList.add(Bryan);
-        rent.Rent(Bryan,inventory);
+//        rent.Rent(Bryan,inventory);
         Customer Bridget = new BusinessCustomer("Bridget");
         customerList.add(Bridget);
-        rent.Rent(Bridget,inventory);
+//        rent.Rent(Bridget,inventory);
         Customer Brandon = new BusinessCustomer("Brandon");
         customerList.add(Brandon);
-        rent.Rent(Brandon,inventory);
+//        rent.Rent(Brandon,inventory);
 
         Customer Carrie = new CasualCustomer("Carrie");
         customerList.add(Carrie);
-        rent.Rent(Carrie,inventory);
+//        rent.Rent(Carrie,inventory);
         Customer Carlos = new CasualCustomer("Carlos");
         customerList.add(Carlos);
-        rent.Rent(Carlos,inventory);
+//        rent.Rent(Carlos,inventory);
         Customer Christine = new CasualCustomer("Christine");
         customerList.add(Christine);
-        rent.Rent(Christine,inventory);
+//        rent.Rent(Christine,inventory);
         Customer Cory = new CasualCustomer("Cory");
         customerList.add(Cory);
-        rent.Rent(Cory,inventory);
+//        rent.Rent(Cory,inventory);
 
         Customer Ryan = new RegularCustomer("Ryan");
         customerList.add(Ryan);
-        rent.Rent(Ryan,inventory);
+//        rent.Rent(Ryan,inventory);
         Customer Rachel = new RegularCustomer("Rachel");
         customerList.add(Rachel);
-        rent.Rent(Rachel,inventory);
+//        rent.Rent(Rachel,inventory);
         Customer Richard = new RegularCustomer("Richard");
         customerList.add(Richard);
-        rent.Rent(Richard,inventory);
+//        rent.Rent(Richard,inventory);
         Customer Ruth = new RegularCustomer("Ruth");
         customerList.add(Ruth);
-        rent.Rent(Ruth,inventory);
+//        rent.Rent(Ruth,inventory);
 
 
 //To do the simulation you can use rent.Rent(customer, inventory) on random customers
@@ -107,10 +107,34 @@ public class Main {
 //it from the rented list. If there aren't enough cars to rent per person, it will print a
 //message saying there aren't enough cars and skip it.
 
+        for(int day = 0; day < 36; day++){
 
-        //inventory.printCarsRented();
+            Random rand = new Random();
+
+            System.out.println("Day: " + day);
+
+            int numCusomers = rand.nextInt( 5); // Choose a random number of customers to rent today
+
+            for(int cust = 0; cust < numCusomers; cust++){
+
+                Customer randomCustomer = customerList.get(rand.nextInt(customerList.size()));
+
+                System.out.println("Customer " + randomCustomer.getName() + "is renting");
+
+                rent.Rent(randomCustomer, inventory);
+            }
+
+
+            // Used an observer pattern to notify all rented cars that their "days left" goes down 1
+            rent.dayChange(inventory);
+        }
+
+
+        inventory.printCarsRented();
 
         rent.printRecords();
+
+        System.out.println("Total Sales: "  + rent.getTotalSales());
 
 //rent.printRecords prints out all of the records of the rentals. It keeps track of the
 //customer, car details, how long its rented out for, the rate, the base price, the total

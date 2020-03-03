@@ -7,11 +7,28 @@ import java.util.Random;
 public class RentCar {
     private int carsRented;
     private List<RentalRecord> records = new ArrayList<RentalRecord>();
+    private ObservableDayChange observable;
+    private int totalSales;
 
 
     public RentCar()
     {
+        observable = new ObservableDayChange();
+        totalSales = 0;
+    }
+    public void dayChange(CarInventory inven){
+        observable.dayChange();
 
+        for(RentalRecord rental_current : records){ //Check if any cars have 0 days left, and should be returned
+
+            if (rental_current.getDaysLeft() <= 0 && rental_current.getReturned() == false){
+                ReturnCar(rental_current.getCustomer(), inven);
+
+                observable.deleteObserver(rental_current);
+
+                System.out.println("Returning Customer: " + rental_current.getCustomerName() + "Car: " + rental_current.getCar());
+            }
+        }
     }
     public void Rent(Customer cust, CarInventory inven)
     {
@@ -26,7 +43,12 @@ public class RentCar {
                 Car carRent = inven.getCarsInventory().get(randNum);
                 inven.rentCar(carRent);
                 //RentalRecord rec = new RentalRecord(cust, carRent);
-                records.add(new RentalRecord(cust, carRent));
+                RentalRecord record_new = new RentalRecord(cust, carRent, observable);
+                records.add(record_new);
+
+                totalSales += record_new.getTotalCost();
+                observable.addObserver(record_new);
+
             }
         }
         else
@@ -34,6 +56,10 @@ public class RentCar {
             System.out.println("Not enough cars to rent!");
         }
 
+    }
+
+    public int getTotalSales() {
+        return totalSales;
     }
 
     public List<RentalRecord> getRecords()
