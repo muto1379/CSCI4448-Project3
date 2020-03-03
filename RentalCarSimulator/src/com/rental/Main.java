@@ -117,7 +117,9 @@ public class Main {
 
             for(int cust = 0; cust < numCusomers; cust++){
 
-                Customer randomCustomer = customerList.get(rand.nextInt(customerList.size()));
+                Random rand2 = new Random();
+
+                Customer randomCustomer = customerList.get(rand2.nextInt(customerList.size()));
 
 //                System.out.println("Customer " + randomCustomer.getName() + "is renting");
 
