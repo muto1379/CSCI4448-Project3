@@ -16,6 +16,8 @@ Munkhbayan (Bryan) Togtokh
 
 Java 8 via IntelliJ IDEA
 
+## NOTE: Using late day extension
+
 ## Design Patterns Used
 
 *Factory Pattern* is used in the `CarFactory` class for instantiating all of the cars available for rent
