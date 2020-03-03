@@ -1,0 +1,1783 @@
+Customer name: Christine
+Customer type: Casual
+Car being rented: SUV
+Car license plate: SUV2
+Length of rental: 1
+Daily rate of rental: 50
+Base cost of rental: 50
+Total cost of rental: 155
+Returned: true
+
+
+Customer name: Rachel
+Customer type: Regular
+Car being rented: Minivan
+Car license plate: M2
+Length of rental: 5
+Daily rate of rental: 40
+Base cost of rental: 200
+Total cost of rental: 265
+Returned: true
+
+
+Customer name: Rachel
+Customer type: Regular
+Car being rented: SUV
+Car license plate: SUV3
+Length of rental: 5
+Daily rate of rental: 50
+Base cost of rental: 250
+Total cost of rental: 325
+Returned: true
+
+
+Customer name: Rachel
+Customer type: Regular
+Car being rented: Luxury
+Car license plate: L2
+Length of rental: 5
+Daily rate of rental: 60
+Base cost of rental: 300
+Total cost of rental: 405
+Returned: true
+
+
+Customer name: Becca
+Customer type: Business
+Car being rented: Economy
+Car license plate: E5
+Length of rental: 7
+Daily rate of rental: 20
+Base cost of rental: 140
+Total cost of rental: 235
+Returned: true
+
+
+Customer name: Becca
+Customer type: Business
+Car being rented: Economy
+Car license plate: E2
+Length of rental: 7
+Daily rate of rental: 20
+Base cost of rental: 140
+Total cost of rental: 295
+Returned: true
+
+
+Customer name: Becca
+Customer type: Business
+Car being rented: Luxury
+Car license plate: L5
+Length of rental: 7
+Daily rate of rental: 60
+Base cost of rental: 420
+Total cost of rental: 555
+Returned: true
+
+
+Customer name: Carlos
+Customer type: Casual
+Car being rented: Economy
+Car license plate: E3
+Length of rental: 2
+Daily rate of rental: 20
+Base cost of rental: 40
+Total cost of rental: 195
+Returned: true
+
+
+Customer name: Carlos
+Customer type: Casual
+Car being rented: SUV
+Car license plate: SUV1
+Length of rental: 2
+Daily rate of rental: 50
+Base cost of rental: 100
+Total cost of rental: 210
+Returned: true
+
+
+Customer name: Bryan
+Customer type: Business
+Car being rented: Luxury
+Car license plate: L1
+Length of rental: 7
+Daily rate of rental: 60
+Base cost of rental: 420
+Total cost of rental: 500
+Returned: true
+
+
+Customer name: Bryan
+Customer type: Business
+Car being rented: Luxury
+Car license plate: L3
+Length of rental: 7
+Daily rate of rental: 60
+Base cost of rental: 420
+Total cost of rental: 555
+Returned: true
+
+
+Customer name: Bryan
+Customer type: Business
+Car being rented: Minivan
+Car license plate: M3
+Length of rental: 7
+Daily rate of rental: 40
+Base cost of rental: 280
+Total cost of rental: 325
+Returned: true
+
+
+Customer name: Carlos
+Customer type: Casual
+Car being rented: SUV
+Car license plate: SUV5
+Length of rental: 2
+Daily rate of rental: 50
+Base cost of rental: 100
+Total cost of rental: 150
+Returned: true
+
+
+Customer name: Carrie
+Customer type: Casual
+Car being rented: Minivan
+Car license plate: M1
+Length of rental: 1
+Daily rate of rental: 40
+Base cost of rental: 40
+Total cost of rental: 175
+Returned: true
+
+
+Customer name: Carlos
+Customer type: Casual
+Car being rented: Economy
+Car license plate: E3
+Length of rental: 2
+Daily rate of rental: 20
+Base cost of rental: 40
+Total cost of rental: 70
+Returned: true
+
+
+Customer name: Cory
+Customer type: Casual
+Car being rented: Minivan
+Car license plate: M5
+Length of rental: 3
+Daily rate of rental: 40
+Base cost of rental: 120
+Total cost of rental: 165
+Returned: true
+
+
+Customer name: Brandon
+Customer type: Business
+Car being rented: Minivan
+Car license plate: M4
+Length of rental: 7
+Daily rate of rental: 40
+Base cost of rental: 280
+Total cost of rental: 450
+Returned: true
+
+
+Customer name: Brandon
+Customer type: Business
+Car being rented: SUV
+Car license plate: SUV1
+Length of rental: 7
+Daily rate of rental: 50
+Base cost of rental: 350
+Total cost of rental: 490
+Returned: true
+
+
+Customer name: Brandon
+Customer type: Business
+Car being rented: SUV
+Car license plate: SUV3
+Length of rental: 7
+Daily rate of rental: 50
+Base cost of rental: 350
+Total cost of rental: 455
+Returned: true
+
+
+Customer name: Bryan
+Customer type: Business
+Car being rented: SUV
+Car license plate: SUV5
+Length of rental: 7
+Daily rate of rental: 50
+Base cost of rental: 350
+Total cost of rental: 535
+Returned: true
+
+
+Customer name: Bryan
+Customer type: Business
+Car being rented: SUV
+Car license plate: SUV4
+Length of rental: 7
+Daily rate of rental: 50
+Base cost of rental: 350
+Total cost of rental: 350
+Returned: true
+
+
+Customer name: Bryan
+Customer type: Business
+Car being rented: Minivan
+Car license plate: M1
+Length of rental: 7
+Daily rate of rental: 40
+Base cost of rental: 280
+Total cost of rental: 450
+Returned: true
+
+
+Customer name: Richard
+Customer type: Regular
+Car being rented: Luxury
+Car license plate: L2
+Length of rental: 3
+Daily rate of rental: 60
+Base cost of rental: 180
+Total cost of rental: 275
+Returned: true
+
+
+Customer name: Brandon
+Customer type: Business
+Car being rented: Economy
+Car license plate: E1
+Length of rental: 7
+Daily rate of rental: 20
+Base cost of rental: 140
+Total cost of rental: 220
+Returned: true
+
+
+Customer name: Brandon
+Customer type: Business
+Car being rented: Economy
+Car license plate: E3
+Length of rental: 7
+Daily rate of rental: 20
+Base cost of rental: 140
+Total cost of rental: 170
+Returned: true
+
+
+Customer name: Brandon
+Customer type: Business
+Car being rented: Minivan
+Car license plate: M2
+Length of rental: 7
+Daily rate of rental: 40
+Base cost of rental: 280
+Total cost of rental: 415
+Returned: true
+
+
+Customer name: Christine
+Customer type: Casual
+Car being rented: Luxury
+Car license plate: L4
+Length of rental: 1
+Daily rate of rental: 60
+Base cost of rental: 60
+Total cost of rental: 180
+Returned: true
+
+
+Customer name: Cory
+Customer type: Casual
+Car being rented: SUV
+Car license plate: SUV2
+Length of rental: 3
+Daily rate of rental: 50
+Base cost of rental: 150
+Total cost of rental: 335
+Returned: true
+
+
+Customer name: Ruth
+Customer type: Regular
+Car being rented: Minivan
+Car license plate: M5
+Length of rental: 5
+Daily rate of rental: 40
+Base cost of rental: 200
+Total cost of rental: 230
+Returned: true
+
+
+Customer name: Ruth
+Customer type: Regular
+Car being rented: Economy
+Car license plate: E3
+Length of rental: 5
+Daily rate of rental: 20
+Base cost of rental: 100
+Total cost of rental: 240
+Returned: true
+
+
+Customer name: Ruth
+Customer type: Regular
+Car being rented: SUV
+Car license plate: SUV1
+Length of rental: 5
+Daily rate of rental: 50
+Base cost of rental: 250
+Total cost of rental: 310
+Returned: true
+
+
+Customer name: Ryan
+Customer type: Regular
+Car being rented: Economy
+Car license plate: E4
+Length of rental: 5
+Daily rate of rental: 20
+Base cost of rental: 100
+Total cost of rental: 225
+Returned: true
+
+
+Customer name: Ryan
+Customer type: Regular
+Car being rented: Luxury
+Car license plate: L1
+Length of rental: 5
+Daily rate of rental: 60
+Base cost of rental: 300
+Total cost of rental: 455
+Returned: true
+
+
+Customer name: Ryan
+Customer type: Regular
+Car being rented: Economy
+Car license plate: E3
+Length of rental: 5
+Daily rate of rental: 20
+Base cost of rental: 100
+Total cost of rental: 240
+Returned: true
+
+
+Customer name: Richard
+Customer type: Regular
+Car being rented: Luxury
+Car license plate: L5
+Length of rental: 3
+Daily rate of rental: 60
+Base cost of rental: 180
+Total cost of rental: 275
+Returned: true
+
+
+Customer name: Carrie
+Customer type: Casual
+Car being rented: SUV
+Car license plate: SUV5
+Length of rental: 1
+Daily rate of rental: 50
+Base cost of rental: 50
+Total cost of rental: 155
+Returned: true
+
+
+Customer name: Richard
+Customer type: Regular
+Car being rented: SUV
+Car license plate: SUV2
+Length of rental: 3
+Daily rate of rental: 50
+Base cost of rental: 150
+Total cost of rental: 260
+Returned: true
+
+
+Customer name: Brandon
+Customer type: Business
+Car being rented: Economy
+Car license plate: E5
+Length of rental: 7
+Daily rate of rental: 20
+Base cost of rental: 140
+Total cost of rental: 235
+Returned: true
+
+
+Customer name: Brandon
+Customer type: Business
+Car being rented: SUV
+Car license plate: SUV4
+Length of rental: 7
+Daily rate of rental: 50
+Base cost of rental: 350
+Total cost of rental: 365
+Returned: true
+
+
+Customer name: Brandon
+Customer type: Business
+Car being rented: Luxury
+Car license plate: L3
+Length of rental: 7
+Daily rate of rental: 60
+Base cost of rental: 420
+Total cost of rental: 530
+Returned: true
+
+
+Customer name: Richard
+Customer type: Regular
+Car being rented: Minivan
+Car license plate: M1
+Length of rental: 3
+Daily rate of rental: 40
+Base cost of rental: 120
+Total cost of rental: 275
+Returned: true
+
+
+Customer name: Ryan
+Customer type: Regular
+Car being rented: Luxury
+Car license plate: L2
+Length of rental: 5
+Daily rate of rental: 60
+Base cost of rental: 300
+Total cost of rental: 315
+Returned: true
+
+
+Customer name: Ryan
+Customer type: Regular
+Car being rented: SUV
+Car license plate: SUV5
+Length of rental: 5
+Daily rate of rental: 50
+Base cost of rental: 250
+Total cost of rental: 310
+Returned: true
+
+
+Customer name: Ryan
+Customer type: Regular
+Car being rented: Minivan
+Car license plate: M1
+Length of rental: 5
+Daily rate of rental: 40
+Base cost of rental: 200
+Total cost of rental: 340
+Returned: true
+
+
+Customer name: Brandon
+Customer type: Business
+Car being rented: SUV
+Car license plate: SUV5
+Length of rental: 7
+Daily rate of rental: 50
+Base cost of rental: 350
+Total cost of rental: 400
+Returned: true
+
+
+Customer name: Brandon
+Customer type: Business
+Car being rented: Minivan
+Car license plate: M3
+Length of rental: 7
+Daily rate of rental: 40
+Base cost of rental: 280
+Total cost of rental: 345
+Returned: true
+
+
+Customer name: Brandon
+Customer type: Business
+Car being rented: Luxury
+Car license plate: L4
+Length of rental: 7
+Daily rate of rental: 60
+Base cost of rental: 420
+Total cost of rental: 515
+Returned: true
+
+
+Customer name: Carrie
+Customer type: Casual
+Car being rented: Economy
+Car license plate: E1
+Length of rental: 1
+Daily rate of rental: 20
+Base cost of rental: 20
+Total cost of rental: 100
+Returned: true
+
+
+Customer name: Ruth
+Customer type: Regular
+Car being rented: SUV
+Car license plate: SUV3
+Length of rental: 5
+Daily rate of rental: 50
+Base cost of rental: 250
+Total cost of rental: 310
+Returned: true
+
+
+Customer name: Ruth
+Customer type: Regular
+Car being rented: Economy
+Car license plate: E1
+Length of rental: 5
+Daily rate of rental: 20
+Base cost of rental: 100
+Total cost of rental: 130
+Returned: true
+
+
+Customer name: Ruth
+Customer type: Regular
+Car being rented: SUV
+Car license plate: SUV1
+Length of rental: 5
+Daily rate of rental: 50
+Base cost of rental: 250
+Total cost of rental: 420
+Returned: true
+
+
+Customer name: Cory
+Customer type: Casual
+Car being rented: Luxury
+Car license plate: L4
+Length of rental: 3
+Daily rate of rental: 60
+Base cost of rental: 180
+Total cost of rental: 300
+Returned: true
+
+
+Customer name: Bryan
+Customer type: Business
+Car being rented: Economy
+Car license plate: E3
+Length of rental: 7
+Daily rate of rental: 20
+Base cost of rental: 140
+Total cost of rental: 185
+Returned: true
+
+
+Customer name: Bryan
+Customer type: Business
+Car being rented: Economy
+Car license plate: E2
+Length of rental: 7
+Daily rate of rental: 20
+Base cost of rental: 140
+Total cost of rental: 295
+Returned: true
+
+
+Customer name: Bryan
+Customer type: Business
+Car being rented: SUV
+Car license plate: SUV4
+Length of rental: 7
+Daily rate of rental: 50
+Base cost of rental: 350
+Total cost of rental: 430
+Returned: true
+
+
+Customer name: Richard
+Customer type: Regular
+Car being rented: SUV
+Car license plate: SUV2
+Length of rental: 3
+Daily rate of rental: 50
+Base cost of rental: 150
+Total cost of rental: 215
+Returned: true
+
+
+Customer name: Bridget
+Customer type: Business
+Car being rented: Minivan
+Car license plate: M3
+Length of rental: 7
+Daily rate of rental: 40
+Base cost of rental: 280
+Total cost of rental: 450
+Returned: true
+
+
+Customer name: Bridget
+Customer type: Business
+Car being rented: Economy
+Car license plate: E4
+Length of rental: 7
+Daily rate of rental: 20
+Base cost of rental: 140
+Total cost of rental: 310
+Returned: true
+
+
+Customer name: Bridget
+Customer type: Business
+Car being rented: Economy
+Car license plate: E3
+Length of rental: 7
+Daily rate of rental: 20
+Base cost of rental: 140
+Total cost of rental: 260
+Returned: true
+
+
+Customer name: Richard
+Customer type: Regular
+Car being rented: SUV
+Car license plate: SUV2
+Length of rental: 3
+Daily rate of rental: 50
+Base cost of rental: 150
+Total cost of rental: 255
+Returned: true
+
+
+Customer name: Christine
+Customer type: Casual
+Car being rented: Minivan
+Car license plate: M1
+Length of rental: 1
+Daily rate of rental: 40
+Base cost of rental: 40
+Total cost of rental: 175
+Returned: true
+
+
+Customer name: Rachel
+Customer type: Regular
+Car being rented: Luxury
+Car license plate: L2
+Length of rental: 5
+Daily rate of rental: 60
+Base cost of rental: 300
+Total cost of rental: 375
+Returned: true
+
+
+Customer name: Rachel
+Customer type: Regular
+Car being rented: SUV
+Car license plate: SUV5
+Length of rental: 5
+Daily rate of rental: 50
+Base cost of rental: 250
+Total cost of rental: 355
+Returned: true
+
+
+Customer name: Rachel
+Customer type: Regular
+Car being rented: Minivan
+Car license plate: M5
+Length of rental: 5
+Daily rate of rental: 40
+Base cost of rental: 200
+Total cost of rental: 245
+Returned: true
+
+
+Customer name: Ryan
+Customer type: Regular
+Car being rented: Minivan
+Car license plate: M1
+Length of rental: 5
+Daily rate of rental: 40
+Base cost of rental: 200
+Total cost of rental: 275
+Returned: true
+
+
+Customer name: Ryan
+Customer type: Regular
+Car being rented: SUV
+Car license plate: SUV2
+Length of rental: 5
+Daily rate of rental: 50
+Base cost of rental: 250
+Total cost of rental: 315
+Returned: true
+
+
+Customer name: Ryan
+Customer type: Regular
+Car being rented: Minivan
+Car license plate: M2
+Length of rental: 5
+Daily rate of rental: 40
+Base cost of rental: 200
+Total cost of rental: 340
+Returned: true
+
+
+Customer name: Bridget
+Customer type: Business
+Car being rented: Minivan
+Car license plate: M1
+Length of rental: 7
+Daily rate of rental: 40
+Base cost of rental: 280
+Total cost of rental: 325
+Returned: true
+
+
+Customer name: Bridget
+Customer type: Business
+Car being rented: Luxury
+Car license plate: L1
+Length of rental: 7
+Daily rate of rental: 60
+Base cost of rental: 420
+Total cost of rental: 555
+Returned: true
+
+
+Customer name: Bridget
+Customer type: Business
+Car being rented: Economy
+Car license plate: E3
+Length of rental: 7
+Daily rate of rental: 20
+Base cost of rental: 140
+Total cost of rental: 235
+Returned: true
+
+
+Customer name: Becca
+Customer type: Business
+Car being rented: SUV
+Car license plate: SUV2
+Length of rental: 7
+Daily rate of rental: 50
+Base cost of rental: 350
+Total cost of rental: 425
+Returned: true
+
+
+Customer name: Becca
+Customer type: Business
+Car being rented: Luxury
+Car license plate: L4
+Length of rental: 7
+Daily rate of rental: 60
+Base cost of rental: 420
+Total cost of rental: 525
+Returned: true
+
+
+Customer name: Becca
+Customer type: Business
+Car being rented: Luxury
+Car license plate: L2
+Length of rental: 7
+Daily rate of rental: 60
+Base cost of rental: 420
+Total cost of rental: 465
+Returned: true
+
+
+Customer name: Ruth
+Customer type: Regular
+Car being rented: Luxury
+Car license plate: L5
+Length of rental: 5
+Daily rate of rental: 60
+Base cost of rental: 300
+Total cost of rental: 485
+Returned: true
+
+
+Customer name: Ruth
+Customer type: Regular
+Car being rented: Minivan
+Car license plate: M4
+Length of rental: 5
+Daily rate of rental: 40
+Base cost of rental: 200
+Total cost of rental: 370
+Returned: true
+
+
+Customer name: Ruth
+Customer type: Regular
+Car being rented: SUV
+Car license plate: SUV2
+Length of rental: 5
+Daily rate of rental: 50
+Base cost of rental: 250
+Total cost of rental: 370
+Returned: true
+
+
+Customer name: Cory
+Customer type: Casual
+Car being rented: Economy
+Car license plate: E5
+Length of rental: 3
+Daily rate of rental: 20
+Base cost of rental: 60
+Total cost of rental: 215
+Returned: true
+
+
+Customer name: Bryan
+Customer type: Business
+Car being rented: Luxury
+Car license plate: L3
+Length of rental: 7
+Daily rate of rental: 60
+Base cost of rental: 420
+Total cost of rental: 500
+Returned: true
+
+
+Customer name: Bryan
+Customer type: Business
+Car being rented: Minivan
+Car license plate: M1
+Length of rental: 7
+Daily rate of rental: 40
+Base cost of rental: 280
+Total cost of rental: 435
+Returned: true
+
+
+Customer name: Bryan
+Customer type: Business
+Car being rented: Luxury
+Car license plate: L4
+Length of rental: 7
+Daily rate of rental: 60
+Base cost of rental: 420
+Total cost of rental: 480
+Returned: true
+
+
+Customer name: Cory
+Customer type: Casual
+Car being rented: Minivan
+Car license plate: M1
+Length of rental: 3
+Daily rate of rental: 40
+Base cost of rental: 120
+Total cost of rental: 180
+Returned: true
+
+
+Customer name: Richard
+Customer type: Regular
+Car being rented: SUV
+Car license plate: SUV1
+Length of rental: 3
+Daily rate of rental: 50
+Base cost of rental: 150
+Total cost of rental: 215
+Returned: true
+
+
+Customer name: Becca
+Customer type: Business
+Car being rented: SUV
+Car license plate: SUV1
+Length of rental: 7
+Daily rate of rental: 50
+Base cost of rental: 350
+Total cost of rental: 505
+Returned: true
+
+
+Customer name: Becca
+Customer type: Business
+Car being rented: Economy
+Car license plate: E3
+Length of rental: 7
+Daily rate of rental: 20
+Base cost of rental: 140
+Total cost of rental: 155
+Returned: true
+
+
+Customer name: Becca
+Customer type: Business
+Car being rented: Minivan
+Car license plate: M4
+Length of rental: 7
+Daily rate of rental: 40
+Base cost of rental: 280
+Total cost of rental: 355
+Returned: true
+
+
+Customer name: Ruth
+Customer type: Regular
+Car being rented: SUV
+Car license plate: SUV2
+Length of rental: 5
+Daily rate of rental: 50
+Base cost of rental: 250
+Total cost of rental: 310
+Returned: true
+
+
+Customer name: Ruth
+Customer type: Regular
+Car being rented: SUV
+Car license plate: SUV5
+Length of rental: 5
+Daily rate of rental: 50
+Base cost of rental: 250
+Total cost of rental: 345
+Returned: true
+
+
+Customer name: Ruth
+Customer type: Regular
+Car being rented: Minivan
+Car license plate: M5
+Length of rental: 5
+Daily rate of rental: 40
+Base cost of rental: 200
+Total cost of rental: 355
+Returned: true
+
+
+Customer name: Ruth
+Customer type: Regular
+Car being rented: SUV
+Car license plate: SUV2
+Length of rental: 5
+Daily rate of rental: 50
+Base cost of rental: 250
+Total cost of rental: 340
+Returned: true
+
+
+Customer name: Ruth
+Customer type: Regular
+Car being rented: SUV
+Car license plate: SUV5
+Length of rental: 5
+Daily rate of rental: 50
+Base cost of rental: 250
+Total cost of rental: 315
+Returned: true
+
+
+Customer name: Ruth
+Customer type: Regular
+Car being rented: Minivan
+Car license plate: M1
+Length of rental: 5
+Daily rate of rental: 40
+Base cost of rental: 200
+Total cost of rental: 215
+Returned: true
+
+
+Customer name: Brandon
+Customer type: Business
+Car being rented: Minivan
+Car license plate: M2
+Length of rental: 7
+Daily rate of rental: 40
+Base cost of rental: 280
+Total cost of rental: 370
+Returned: true
+
+
+Customer name: Brandon
+Customer type: Business
+Car being rented: Luxury
+Car license plate: L2
+Length of rental: 7
+Daily rate of rental: 60
+Base cost of rental: 420
+Total cost of rental: 420
+Returned: true
+
+
+Customer name: Brandon
+Customer type: Business
+Car being rented: Luxury
+Car license plate: L1
+Length of rental: 7
+Daily rate of rental: 60
+Base cost of rental: 420
+Total cost of rental: 515
+Returned: true
+
+
+Customer name: Ryan
+Customer type: Regular
+Car being rented: Luxury
+Car license plate: L2
+Length of rental: 5
+Daily rate of rental: 60
+Base cost of rental: 300
+Total cost of rental: 365
+Returned: true
+
+
+Customer name: Ryan
+Customer type: Regular
+Car being rented: Minivan
+Car license plate: M1
+Length of rental: 5
+Daily rate of rental: 40
+Base cost of rental: 200
+Total cost of rental: 275
+Returned: true
+
+
+Customer name: Ryan
+Customer type: Regular
+Car being rented: SUV
+Car license plate: SUV3
+Length of rental: 5
+Daily rate of rental: 50
+Base cost of rental: 250
+Total cost of rental: 310
+Returned: true
+
+
+Customer name: Becca
+Customer type: Business
+Car being rented: Minivan
+Car license plate: M5
+Length of rental: 7
+Daily rate of rental: 40
+Base cost of rental: 280
+Total cost of rental: 340
+Returned: true
+
+
+Customer name: Becca
+Customer type: Business
+Car being rented: SUV
+Car license plate: SUV5
+Length of rental: 7
+Daily rate of rental: 50
+Base cost of rental: 350
+Total cost of rental: 425
+Returned: true
+
+
+Customer name: Becca
+Customer type: Business
+Car being rented: SUV
+Car license plate: SUV1
+Length of rental: 7
+Daily rate of rental: 50
+Base cost of rental: 350
+Total cost of rental: 400
+Returned: true
+
+
+Customer name: Richard
+Customer type: Regular
+Car being rented: SUV
+Car license plate: SUV2
+Length of rental: 3
+Daily rate of rental: 50
+Base cost of rental: 150
+Total cost of rental: 245
+Returned: true
+
+
+Customer name: Cory
+Customer type: Casual
+Car being rented: Minivan
+Car license plate: M1
+Length of rental: 3
+Daily rate of rental: 40
+Base cost of rental: 120
+Total cost of rental: 120
+Returned: true
+
+
+Customer name: Rachel
+Customer type: Regular
+Car being rented: Minivan
+Car license plate: M1
+Length of rental: 5
+Daily rate of rental: 40
+Base cost of rental: 200
+Total cost of rental: 215
+Returned: true
+
+
+Customer name: Rachel
+Customer type: Regular
+Car being rented: Luxury
+Car license plate: L2
+Length of rental: 5
+Daily rate of rental: 60
+Base cost of rental: 300
+Total cost of rental: 470
+Returned: true
+
+
+Customer name: Rachel
+Customer type: Regular
+Car being rented: Luxury
+Car license plate: L2
+Length of rental: 5
+Daily rate of rental: 60
+Base cost of rental: 300
+Total cost of rental: 380
+Returned: true
+
+
+Customer name: Bryan
+Customer type: Business
+Car being rented: Minivan
+Car license plate: M2
+Length of rental: 7
+Daily rate of rental: 40
+Base cost of rental: 280
+Total cost of rental: 405
+Returned: true
+
+
+Customer name: Bryan
+Customer type: Business
+Car being rented: Minivan
+Car license plate: M1
+Length of rental: 7
+Daily rate of rental: 40
+Base cost of rental: 280
+Total cost of rental: 390
+Returned: true
+
+
+Customer name: Bryan
+Customer type: Business
+Car being rented: SUV
+Car license plate: SUV5
+Length of rental: 7
+Daily rate of rental: 50
+Base cost of rental: 350
+Total cost of rental: 445
+Returned: true
+
+
+Customer name: Becca
+Customer type: Business
+Car being rented: Economy
+Car license plate: E2
+Length of rental: 7
+Daily rate of rental: 20
+Base cost of rental: 140
+Total cost of rental: 245
+Returned: true
+
+
+Customer name: Becca
+Customer type: Business
+Car being rented: SUV
+Car license plate: SUV5
+Length of rental: 7
+Daily rate of rental: 50
+Base cost of rental: 350
+Total cost of rental: 520
+Returned: true
+
+
+Customer name: Becca
+Customer type: Business
+Car being rented: Luxury
+Car license plate: L3
+Length of rental: 7
+Daily rate of rental: 60
+Base cost of rental: 420
+Total cost of rental: 555
+Returned: true
+
+
+Customer name: Bryan
+Customer type: Business
+Car being rented: Economy
+Car license plate: E1
+Length of rental: 7
+Daily rate of rental: 20
+Base cost of rental: 140
+Total cost of rental: 245
+Returned: true
+
+
+Customer name: Bryan
+Customer type: Business
+Car being rented: Economy
+Car license plate: E4
+Length of rental: 7
+Daily rate of rental: 20
+Base cost of rental: 140
+Total cost of rental: 190
+Returned: true
+
+
+Customer name: Bryan
+Customer type: Business
+Car being rented: Luxury
+Car license plate: L3
+Length of rental: 7
+Daily rate of rental: 60
+Base cost of rental: 420
+Total cost of rental: 465
+Returned: true
+
+
+Customer name: Becca
+Customer type: Business
+Car being rented: Economy
+Car license plate: E3
+Length of rental: 7
+Daily rate of rental: 20
+Base cost of rental: 140
+Total cost of rental: 215
+Returned: true
+
+
+Customer name: Becca
+Customer type: Business
+Car being rented: SUV
+Car license plate: SUV1
+Length of rental: 7
+Daily rate of rental: 50
+Base cost of rental: 350
+Total cost of rental: 475
+Returned: true
+
+
+Customer name: Becca
+Customer type: Business
+Car being rented: SUV
+Car license plate: SUV2
+Length of rental: 7
+Daily rate of rental: 50
+Base cost of rental: 350
+Total cost of rental: 485
+Returned: true
+
+
+Customer name: Bridget
+Customer type: Business
+Car being rented: Minivan
+Car license plate: M1
+Length of rental: 7
+Daily rate of rental: 40
+Base cost of rental: 280
+Total cost of rental: 390
+Returned: true
+
+
+Customer name: Bridget
+Customer type: Business
+Car being rented: Economy
+Car license plate: E5
+Length of rental: 7
+Daily rate of rental: 20
+Base cost of rental: 140
+Total cost of rental: 185
+Returned: true
+
+
+Customer name: Bridget
+Customer type: Business
+Car being rented: Economy
+Car license plate: E5
+Length of rental: 7
+Daily rate of rental: 20
+Base cost of rental: 140
+Total cost of rental: 295
+Returned: true
+
+
+Customer name: Carrie
+Customer type: Casual
+Car being rented: Luxury
+Car license plate: L2
+Length of rental: 1
+Daily rate of rental: 60
+Base cost of rental: 60
+Total cost of rental: 140
+Returned: true
+
+
+Customer name: Ruth
+Customer type: Regular
+Car being rented: Economy
+Car license plate: E1
+Length of rental: 5
+Daily rate of rental: 20
+Base cost of rental: 100
+Total cost of rental: 225
+Returned: true
+
+
+Customer name: Ruth
+Customer type: Regular
+Car being rented: SUV
+Car license plate: SUV2
+Length of rental: 5
+Daily rate of rental: 50
+Base cost of rental: 250
+Total cost of rental: 325
+Returned: true
+
+
+Customer name: Ruth
+Customer type: Regular
+Car being rented: Economy
+Car license plate: E3
+Length of rental: 5
+Daily rate of rental: 20
+Base cost of rental: 100
+Total cost of rental: 160
+Returned: true
+
+
+Customer name: Rachel
+Customer type: Regular
+Car being rented: Luxury
+Car license plate: L1
+Length of rental: 5
+Daily rate of rental: 60
+Base cost of rental: 300
+Total cost of rental: 330
+Returned: true
+
+
+Customer name: Rachel
+Customer type: Regular
+Car being rented: Minivan
+Car license plate: M5
+Length of rental: 5
+Daily rate of rental: 40
+Base cost of rental: 200
+Total cost of rental: 355
+Returned: true
+
+
+Customer name: Rachel
+Customer type: Regular
+Car being rented: Economy
+Car license plate: E3
+Length of rental: 5
+Daily rate of rental: 20
+Base cost of rental: 100
+Total cost of rental: 270
+Returned: true
+
+
+Customer name: Ryan
+Customer type: Regular
+Car being rented: Luxury
+Car license plate: L2
+Length of rental: 5
+Daily rate of rental: 60
+Base cost of rental: 300
+Total cost of rental: 420
+Returned: true
+
+
+Customer name: Ryan
+Customer type: Regular
+Car being rented: SUV
+Car license plate: SUV2
+Length of rental: 5
+Daily rate of rental: 50
+Base cost of rental: 250
+Total cost of rental: 355
+Returned: true
+
+
+Customer name: Ryan
+Customer type: Regular
+Car being rented: Minivan
+Car license plate: M1
+Length of rental: 5
+Daily rate of rental: 40
+Base cost of rental: 200
+Total cost of rental: 305
+Returned: true
+
+
+Customer name: Becca
+Customer type: Business
+Car being rented: SUV
+Car license plate: SUV2
+Length of rental: 7
+Daily rate of rental: 50
+Base cost of rental: 350
+Total cost of rental: 445
+Returned: true
+
+
+Customer name: Becca
+Customer type: Business
+Car being rented: Economy
+Car license plate: E1
+Length of rental: 7
+Daily rate of rental: 20
+Base cost of rental: 140
+Total cost of rental: 185
+Returned: true
+
+
+Customer name: Becca
+Customer type: Business
+Car being rented: Minivan
+Car license plate: M1
+Length of rental: 7
+Daily rate of rental: 40
+Base cost of rental: 280
+Total cost of rental: 355
+Returned: true
+
+
+Customer name: Christine
+Customer type: Casual
+Car being rented: Luxury
+Car license plate: L5
+Length of rental: 1
+Daily rate of rental: 60
+Base cost of rental: 60
+Total cost of rental: 120
+Returned: true
+
+
+Customer name: Christine
+Customer type: Casual
+Car being rented: Minivan
+Car license plate: M1
+Length of rental: 1
+Daily rate of rental: 40
+Base cost of rental: 40
+Total cost of rental: 90
+Returned: true
+
+
+Customer name: Ruth
+Customer type: Regular
+Car being rented: Minivan
+Car license plate: M1
+Length of rental: 5
+Daily rate of rental: 40
+Base cost of rental: 200
+Total cost of rental: 290
+Returned: true
+
+
+Customer name: Ruth
+Customer type: Regular
+Car being rented: Luxury
+Car license plate: L4
+Length of rental: 5
+Daily rate of rental: 60
+Base cost of rental: 300
+Total cost of rental: 345
+Returned: true
+
+
+Customer name: Ruth
+Customer type: Regular
+Car being rented: SUV
+Car license plate: SUV2
+Length of rental: 5
+Daily rate of rental: 50
+Base cost of rental: 250
+Total cost of rental: 325
+Returned: true
+
+
+Customer name: Becca
+Customer type: Business
+Car being rented: Luxury
+Car license plate: L2
+Length of rental: 7
+Daily rate of rental: 60
+Base cost of rental: 420
+Total cost of rental: 485
+Returned: true
+
+
+Customer name: Becca
+Customer type: Business
+Car being rented: Minivan
+Car license plate: M1
+Length of rental: 7
+Daily rate of rental: 40
+Base cost of rental: 280
+Total cost of rental: 390
+Returned: true
+
+
+Customer name: Becca
+Customer type: Business
+Car being rented: SUV
+Car license plate: SUV2
+Length of rental: 7
+Daily rate of rental: 50
+Base cost of rental: 350
+Total cost of rental: 455
+Returned: true
+
+
+Customer name: Carrie
+Customer type: Casual
+Car being rented: SUV
+Car license plate: SUV2
+Length of rental: 1
+Daily rate of rental: 50
+Base cost of rental: 50
+Total cost of rental: 95
+Returned: true
+
+
+Customer name: Brandon
+Customer type: Business
+Car being rented: Luxury
+Car license plate: L3
+Length of rental: 7
+Daily rate of rental: 60
+Base cost of rental: 420
+Total cost of rental: 530
+Returned: false
+
+
+Customer name: Brandon
+Customer type: Business
+Car being rented: SUV
+Car license plate: SUV2
+Length of rental: 7
+Daily rate of rental: 50
+Base cost of rental: 350
+Total cost of rental: 410
+Returned: false
+
+
+Customer name: Brandon
+Customer type: Business
+Car being rented: SUV
+Car license plate: SUV1
+Length of rental: 7
+Daily rate of rental: 50
+Base cost of rental: 350
+Total cost of rental: 415
+Returned: false
+
+
+Customer name: Christine
+Customer type: Casual
+Car being rented: Luxury
+Car license plate: L2
+Length of rental: 1
+Daily rate of rental: 60
+Base cost of rental: 60
+Total cost of rental: 230
+Returned: true
+
+
+Customer name: Bryan
+Customer type: Business
+Car being rented: Economy
+Car license plate: E1
+Length of rental: 7
+Daily rate of rental: 20
+Base cost of rental: 140
+Total cost of rental: 170
+Returned: false
+
+
+Customer name: Bryan
+Customer type: Business
+Car being rented: Luxury
+Car license plate: L2
+Length of rental: 7
+Daily rate of rental: 60
+Base cost of rental: 420
+Total cost of rental: 525
+Returned: false
+
+
+Customer name: Bryan
+Customer type: Business
+Car being rented: Economy
+Car license plate: E3
+Length of rental: 7
+Daily rate of rental: 20
+Base cost of rental: 140
+Total cost of rental: 200
+Returned: false
+
+
+Customer name: Christine
+Customer type: Casual
+Car being rented: Economy
+Car license plate: E5
+Length of rental: 1
+Daily rate of rental: 20
+Base cost of rental: 20
+Total cost of rental: 145
+Returned: true
+
+
+Customer name: Ruth
+Customer type: Regular
+Car being rented: SUV
+Car license plate: SUV2
+Length of rental: 5
+Daily rate of rental: 50
+Base cost of rental: 250
+Total cost of rental: 435
+Returned: false
+
+
+Customer name: Ruth
+Customer type: Regular
+Car being rented: Luxury
+Car license plate: L1
+Length of rental: 5
+Daily rate of rental: 60
+Base cost of rental: 300
+Total cost of rental: 410
+Returned: false
+
+
+Customer name: Ruth
+Customer type: Regular
+Car being rented: SUV
+Car license plate: SUV1
+Length of rental: 5
+Daily rate of rental: 50
+Base cost of rental: 250
+Total cost of rental: 405
+Returned: false
+
+
+Customer name: Becca
+Customer type: Business
+Car being rented: Luxury
+Car license plate: L2
+Length of rental: 7
+Daily rate of rental: 60
+Base cost of rental: 420
+Total cost of rental: 420
+Returned: false
+
+
+Customer name: Becca
+Customer type: Business
+Car being rented: Economy
+Car license plate: E4
+Length of rental: 7
+Daily rate of rental: 20
+Base cost of rental: 140
+Total cost of rental: 265
+Returned: false
+
+
+Customer name: Becca
+Customer type: Business
+Car being rented: Economy
+Car license plate: E1
+Length of rental: 7
+Daily rate of rental: 20
+Base cost of rental: 140
+Total cost of rental: 325
+Returned: false
+
+
+Customer name: Ryan
+Customer type: Regular
+Car being rented: Minivan
+Car license plate: M1
+Length of rental: 5
+Daily rate of rental: 40
+Base cost of rental: 200
+Total cost of rental: 335
+Returned: false
+
+
+Customer name: Ryan
+Customer type: Regular
+Car being rented: Economy
+Car license plate: E3
+Length of rental: 5
+Daily rate of rental: 20
+Base cost of rental: 100
+Total cost of rental: 190
+Returned: false
+
+
+Customer name: Ryan
+Customer type: Regular
+Car being rented: Minivan
+Car license plate: M4
+Length of rental: 5
+Daily rate of rental: 40
+Base cost of rental: 200
+Total cost of rental: 230
+Returned: false
+
+
+Customer name: Brandon
+Customer type: Business
+Car being rented: Minivan
+Car license plate: M1
+Length of rental: 7
+Daily rate of rental: 40
+Base cost of rental: 280
+Total cost of rental: 400
+Returned: false
+
+
+Customer name: Brandon
+Customer type: Business
+Car being rented: Economy
+Car license plate: E5
+Length of rental: 7
+Daily rate of rental: 20
+Base cost of rental: 140
+Total cost of rental: 140
+Returned: false
+
+
+Customer name: Brandon
+Customer type: Business
+Car being rented: SUV
+Car license plate: SUV3
+Length of rental: 7
+Daily rate of rental: 50
+Base cost of rental: 350
+Total cost of rental: 475
+Returned: false
+
+
+Total Sales: $52815
