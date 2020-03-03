@@ -26,7 +26,7 @@ public class RentCar {
 
                 observable.deleteObserver(rental_current);
 
-                System.out.println("Returning Customer: " + rental_current.getCustomerName() + "Car: " + rental_current.getCar());
+//                System.out.println("Returning Customer: " + rental_current.getCustomerName() + "Car: " + rental_current.getCar());
             }
         }
     }
@@ -53,7 +53,7 @@ public class RentCar {
         }
         else
         {
-            System.out.println("Not enough cars to rent!");
+//            System.out.println("Not enough cars to rent!");
         }
 
     }

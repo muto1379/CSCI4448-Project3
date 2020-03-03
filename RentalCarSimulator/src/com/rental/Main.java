@@ -111,7 +111,7 @@ public class Main {
 
             Random rand = new Random();
 
-            System.out.println("Day: " + day);
+//            System.out.println("Day: " + day);
 
             int numCusomers = rand.nextInt( 5); // Choose a random number of customers to rent today
 
@@ -119,7 +119,7 @@ public class Main {
 
                 Customer randomCustomer = customerList.get(rand.nextInt(customerList.size()));
 
-                System.out.println("Customer " + randomCustomer.getName() + "is renting");
+//                System.out.println("Customer " + randomCustomer.getName() + "is renting");
 
                 rent.Rent(randomCustomer, inventory);
             }
@@ -130,11 +130,11 @@ public class Main {
         }
 
 
-        inventory.printCarsRented();
+//        inventory.printCarsRented();
 
         rent.printRecords();
 
-        System.out.println("Total Sales: "  + rent.getTotalSales());
+        System.out.println("Total Sales: $"  + rent.getTotalSales());
 
 //rent.printRecords prints out all of the records of the rentals. It keeps track of the
 //customer, car details, how long its rented out for, the rate, the base price, the total
